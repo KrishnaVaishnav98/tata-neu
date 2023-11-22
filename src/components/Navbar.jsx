@@ -46,7 +46,7 @@ export const Navbar = () => {
                     </div>
                 </div>
                 <div className='flex gap-6'>
-                    <div className='flex items-center w-64 h-10 bg-gray-200 px-2'>
+                    <div className='flex items-center mx-1 lg:mx-0 w-full lg:w-64 h-10 bg-gray-200 px-2 rounded'>
                         <BiSearchAlt size={'24px'} />
                         <input className='border-none bg-gray-200 outline-none px-2' type="text" placeholder='Search Tata Neu' />
                     </div>
