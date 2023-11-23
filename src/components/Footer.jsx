@@ -44,7 +44,7 @@ const Footer = () => {
         </Center>
       </VStack>
 
-      <Box display={'flex'} gap={'20px'} margin={'auto'} padding={'auto'} width={{ base: '50%', base: '80%', sm: '80%', md: '50%', lg: '50%', xl: '50%' }} mt={{ base: '10px', sm: '20px', md: '20px', lg: '0px', xl: '0px' }}>
+      <Box display={'flex'} gap={'20px'} margin={'auto'} padding={'auto'} width={{ base: '50%', base: '80%', sm: '80%', md: '50%', lg: '50%', xl: '50%' }} mt={{ base: '10px', sm: '50px', md: '50px', lg: '0px', xl: '0px' }}>
         <VStack
           align={"left"}
           fontSize={{
