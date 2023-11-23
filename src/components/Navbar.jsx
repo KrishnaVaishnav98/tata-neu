@@ -12,7 +12,7 @@ import { Menu, MenuHandler, MenuList, MenuItem, Button } from "@material-tailwin
 export const Navbar = () => {
     return (
         <>
-            <div className='px-2 py-2 lg:px-8 lg:py-6 block lg:flex justify-between'>
+            <div className='sticky px-2 py-2 lg:px-8 lg:py-6 block lg:flex justify-between'>
                 <div className='flex items-center gap-6 pb-4 lg:pb-0 justify-between items-center'>
                     <div className='flex lg:hidden'>
                         <Menu >
