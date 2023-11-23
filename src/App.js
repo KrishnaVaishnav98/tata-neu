@@ -4,7 +4,7 @@ import { Navbar } from "./components/Navbar";
 
 function App() {
   return (
-    <div className="App font-proxima-nova">
+    <div className="App text-proxima-nova">
       <Navbar />
       <AllRoutes />
       <Footer />

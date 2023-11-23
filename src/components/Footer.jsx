@@ -30,7 +30,7 @@ const Footer = () => {
   return (
     // <Center bgColor={"black"} >
     <Box bgColor={"black"} color="white" p={{ base: "10px", sm: "20px", md: "30px", lg: "50px", xl: "50px" }} display={{ base: 'block', sm: 'block', md: 'flex', lg: 'flex', xl: 'flex' }} justifyContent={'space-between'} >
-      <VStack alignItems="flex-start">
+      <VStack margin={'auto'} p={'auto'} alignItems={{ base: "flex-start", sm: "center", md: "center", lg: "flex-start", xl: "flex-start" }}>
         <Box w="80px">
           <Image src={Tata_Neu_image_bl} alt="logo" />
         </Box>
@@ -44,7 +44,7 @@ const Footer = () => {
         </Center>
       </VStack>
 
-      <Box display={'flex'} width={'50%'} mt={{ base: '10px', sm: '20px', md: '20px', lg: '0px', xl: '0px' }}>
+      <Box display={'flex'} gap={'20px'} margin={'auto'} padding={'auto'} width={{ base: '50%', base: '80%', sm: '80%', md: '50%', lg: '50%', xl: '50%' }} mt={{ base: '10px', sm: '20px', md: '20px', lg: '0px', xl: '0px' }}>
         <VStack
           align={"left"}
           fontSize={{
@@ -78,8 +78,8 @@ const Footer = () => {
             xl: "14px",
           }}
           spacing="20px"
-          data-aos="fade-up"
           m="auto"
+          data-aos="fade-up"
           data-aos-duration="1000"
         >
           <Heading size="md">Customer care</Heading>

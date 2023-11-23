@@ -7,43 +7,51 @@ import family_Img from '../Images/family_loan.webp'
 
 export const HomeSec1 = () => {
     return (
-        <div className='flex p-4 lg:p-14'>
+        <div className='flex p-4 lg:p-14 m-auto'>
             <div className='w-4/5 md:w-2/3 px-4 mr-0 lg:mr-16'>
                 <p className='text-[14px] lg:text-[60px] font-semibold'>Turn Dreams Into Reality With
                     <span className='text-[#FF0096]'> Personal Loans</span>
                 </p>
 
-                <div className='flex gap-4 mt-12 items-center'>
-                    <div className='bg-green-50 p-2 w-fit h-fit rounded-2xl' >
-                        <TbCashBanknoteOff color='green' size={'40px'} />
+                <div className='block md:flex gap-4 mt-12 items-center'>
+                    <div className='flex mr-4'>
+                        <div className='bg-green-50 p-2 w-fit h-fit rounded-2xl mr-4' >
+                            <TbCashBanknoteOff color='green' size={'40px'} />
+                        </div>
+                        <div>
+                            <p className='text-[14px] lg:text-[22px] font-bold'>Avail Zero</p>
+                            <p className='text-[14px] lg:text-[22px] font-normal'>Processing fee</p>
+                        </div>
                     </div>
-                    <div>
-                        <p className='text-[14px] lg:text-[22px] font-bold'>Avail Zero</p>
-                        <p className='text-[14px] lg:text-[22px] font-normal'>Processing fee</p>
-                    </div>
-                    <div className='bg-green-50 p-2 w-fit h-fit rounded-2xl' >
-                        <BsFillLightningChargeFill color='green' size={'40px'} />
-                    </div>
-                    <div>
-                        <p className='text-[14px] lg:text-[22px] font-bold'>Quick</p>
-                        <p className='text-[14px] lg:text-[22px] font-normal'>Personal loan</p>
+                    <div className='flex mr-4 mt-2'>
+                        <div className='bg-green-50 p-2 w-fit h-fit rounded-2xl mr-4' >
+                            <BsFillLightningChargeFill color='green' size={'40px'} />
+                        </div>
+                        <div>
+                            <p className='text-[14px] lg:text-[22px] font-bold'>Quick</p>
+                            <p className='text-[14px] lg:text-[22px] font-normal'>Personal loan</p>
+                        </div>
                     </div>
                 </div>
 
-                <div className='flex gap-4 my-12 items-center'>
-                    <div className='bg-green-50 p-2 w-fit h-fit rounded-2xl' >
-                        <FaHandHoldingMedical color='green' size={'40px'} />
+                <div className='block md:flex gap-4 my-12 items-center'>
+                    <div className='flex mr-4'>
+                        <div className='bg-green-50 p-2 w-fit h-fit rounded-2xl mr-4' >
+                            <FaHandHoldingMedical color='green' size={'40px'} />
+                        </div>
+                        <div>
+                            <p className='text-[14px] lg:text-[22px] font-bold'>Lowest</p>
+                            <p className='text-[14px] lg:text-[22px] font-normal'>Interest Rates</p>
+                        </div>
                     </div>
-                    <div>
-                        <p className='text-[14px] lg:text-[22px] font-bold'>Lowest</p>
-                        <p className='text-[14px] lg:text-[22px] font-normal'>Interest Rates</p>
-                    </div>
-                    <div className='bg-green-50 p-2 w-fit h-fit rounded-2xl' >
-                        <HiClipboardDocumentList color='green' size={'40px'} />
-                    </div>
-                    <div>
-                        <p className='text-[14px] lg:text-[22px] font-bold'>Miniamal</p>
-                        <p className='text-[14px] lg:text-[22px] font-normal'>Documentation</p>
+                    <div className='flex mt-2'>
+                        <div className='bg-green-50 p-2 w-fit h-fit rounded-2xl mr-4' >
+                            <HiClipboardDocumentList color='green' size={'40px'} />
+                        </div>
+                        <div>
+                            <p className='text-[14px] lg:text-[22px] font-bold'>Miniamal</p>
+                            <p className='text-[14px] lg:text-[22px] font-normal'>Documentation</p>
+                        </div>
                     </div>
                 </div>
                 <button className='text-sm lg:text-lg px-4 py-2 bg-[#8800ecd9] text-white rounded-md font-normal'>APPLY NOW</button>
